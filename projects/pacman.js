@@ -1,8 +1,5 @@
 var pos = 0;
-const pacArray = [
-  ['../images/PacMan1.png', '../images/PacMan2.png'],
-  ['../images/PacMan3.png', '../images/PacMan4.png'],
-];
+const pacArray = ['../images/PacMan1.png', '../images/PacMan2.png','../images/PacMan3.png', '../images/PacMan4.png'];
 var direction = 0;
 const pacMen = [];
 
@@ -21,7 +18,9 @@ function makePac() {
   let game = document.getElementById('game');
   let newimg = document.createElement('img');
   newimg.style.position = 'absolute';
-  newimg.src = '../images/PacMan1.png';
+  // generate random number between 0 to 3
+  let num = Math.floor(Math.random() * 3);
+  newimg.src = pacArray[num].toString();
   newimg.width = 100;
   newimg.style.left = position.x;
   newimg.style.top = position.y;

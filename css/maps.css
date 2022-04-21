@@ -1,0 +1,38 @@
+.infoHeader{
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+body { 
+    margin: 0;
+    padding: 0; 
+}
+
+#map { 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%; 
+}
+
+.map-overlay {
+    position: absolute;
+    background-color: rgba(215, 191, 191, 0.706);
+    font-size: 0.9em;
+    color: rgb(61, 9, 9);
+    margin: auto;
+    padding-right: 1.8em;   
+    text-align: left;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.infoHeader{
+    font-size: 1.1em;
+    font-weight: bolder;
+  }
+
+li{
+    list-style-type: none;
+    border-left: 1em dotted red;
+}
