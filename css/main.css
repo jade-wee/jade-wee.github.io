@@ -10,6 +10,11 @@ h3 {
     color: darkcyan;
 }
 
+.role {
+    color: rgb(48, 57, 57);
+    font-size: 1.1em;
+}
+
 .container { 
     align-items: center;
     justify-content: flex-start;
@@ -52,6 +57,9 @@ h3 {
     padding: 1rem;
 }
 
+.flower-card {
+    background: url("../images/flower.png") repeat;
+}
 a:link {
     text-decoration: none;
   }
