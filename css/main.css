@@ -10,13 +10,6 @@ h3 {
     color: darkcyan;
 }
 
-.breadcrumb {
-    background-color: #eef1f5;
-    padding: 0.3em;
-    margin: auto;
-    margin-bottom: 0.5em;
-}
-
 .container { 
     align-items: center;
     justify-content: flex-start;
