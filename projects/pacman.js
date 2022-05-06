@@ -6,7 +6,7 @@ const pacMen = [];
 function setToRandom(scale) {
   return {
     x: Math.random() * scale,
-    y: Math.random() * scale,
+    y: Math.random() * scale + 30,
   };
 }
 // Factory to make a PacMan
@@ -21,6 +21,7 @@ function makePac() {
   // generate random number between 0 to 3
   let num = Math.floor(Math.random() * (3 + 1));
   newimg.src = pacArray[num].toString();
+  console.log(num);
   newimg.width = 100;
   newimg.style.left = position.x;
   newimg.style.top = position.y;
